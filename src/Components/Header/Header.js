@@ -19,13 +19,15 @@ const Header = () => {
 
             <div className="header-input">
                 <SearchIcon></SearchIcon>
-                <input type="text" />
+                <input type="text" placeholder='Search...'/>
             </div>
           </div>
 
           <div className="header_center">
-            <div className="header_option">
-               <MosqueIcon></MosqueIcon>
+            <div className="header_option header_option--active">
+               <MosqueIcon></MosqueIcon> 
+               
+              
             </div>
             <div className="header_option">
                <PagesIcon></PagesIcon>
@@ -47,15 +49,14 @@ const Header = () => {
           <div className="header_right">
             <div className="header_info">
             <NotificationsIcon></NotificationsIcon>
-                <MessageIcon></MessageIcon>
-              
-                
-                <AccountCircleIcon></AccountCircleIcon>
+            <MessageIcon></MessageIcon>
+            <AccountCircleIcon></AccountCircleIcon>
               
             </div>
             
            
           </div>
+         
         </div>
     );
 };
