@@ -1,0 +1,19 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 5%;
+}
+.sidebarRow:hover{
+
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.sidebarimg{
+    width: 150px;
+    height: 120px;
+}
+.sidebartext{
+    margin-left: 10px;
+}

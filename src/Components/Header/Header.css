@@ -79,3 +79,8 @@
 }
 
 
+.header_info>.MuiSvgIcon-root{
+     color: gray;
+     margin-left: 20px;
+     padding: 2px;
+}
